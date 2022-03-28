@@ -1,0 +1,36 @@
+{
+  "id": "home-page",
+  "label": "HomePage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "left_right_content": {
+              "type": "SharedSlice"
+            },
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "customer_slice": {
+              "type": "SharedSlice"
+            },
+            "multiple_content_image_block": {
+              "type": "SharedSlice"
+            },
+            "demo": {
+              "type": "SharedSlice"
+            },
+            "resources": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

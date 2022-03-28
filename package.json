@@ -1,0 +1,29 @@
+{
+  "name": "medallia-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@nuxtjs/prismic": "^1.4.1",
+    "@prismicio/slice-simulator-vue": "^0.2.0",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "sm-commons": "^0.1.4",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-slicezone": "^0.1.4",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9",
+    "sass-loader": "10.1.1",
+    "slice-machine-ui": "^0.3.3"
+  }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "new_test_slice",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Whiteboard end-to-end vortals",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Ullamco non consectetur excepteur in dolore pariatur exercitation aliqua nostrud qui. Mollit non cupidatat deserunt ullamco ut fugiat aliquip enim occaecat fugiat velit nostrud ex deserunt esse. Nostrud occaecat tempor eiusmod ex mollit mollit laboris incididunt.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
