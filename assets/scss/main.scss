@@ -1,4 +1,19 @@
+h2 {
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+p {
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
 .section {
+  max-width: 1120px;
+  @media (min-width: 768px) {
+    margin: 50px auto;
+  }
 }
 
 .image__wrap {
@@ -14,14 +29,26 @@ img {
 
 .button__wrap {
   background-color: #4050c6;
+  border: 2px solid #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+
   padding: 10px;
   width: 50%;
   margin: 10px auto;
   text-align: center;
+  max-width: 200px;
+  &:hover {
+    background-color: #fff;
+    border: 2px solid #4050c6;
+    .button-link {
+      color: #4050c6;
+    }
+  }
 }
 
 .button-link {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 

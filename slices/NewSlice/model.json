@@ -1,23 +1,22 @@
 {
-  "id": "demo",
+  "id": "new_slice",
   "type": "SharedSlice",
-  "name": "Demo",
-  "description": "Demo",
+  "name": "NewSlice",
+  "description": "NewSlice",
   "variations": [
     {
       "id": "default",
       "name": "Default",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
-      "description": "Demo",
+      "description": "NewSlice",
       "primary": {
         "title": {
           "type": "StructuredText",
           "config": {
+            "single": "heading1",
             "label": "Title",
-            "placeholder": "This is where it all begins...",
-            "allowTargetBlank": true,
-            "single": "heading2"
+            "placeholder": "This is where it all begins..."
           }
         },
         "description": {
@@ -28,23 +27,24 @@
             "placeholder": "A nice description of your product"
           }
         },
-        "buttonText": {
+        "newText": {
           "config": {
-            "label": "Button Text",
+            "label": "New Text",
             "placeholder": ""
           },
           "type": "Text"
-        },
-        "buttonLink": {
-          "config": {
-            "label": "Button Link",
-            "placeholder": "",
-            "allowTargetBlank": false
-          },
-          "type": "Link"
         }
       },
-      "items": {}
+      "items": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
     }
   ]
 }

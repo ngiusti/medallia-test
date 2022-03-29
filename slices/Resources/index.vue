@@ -1,7 +1,7 @@
 <template>
   <section class="resources">
     <PrismicRichText :field="slice.primary.title" class="title" />
-    <div>
+    <div class="card__wrap">
       <div
         v-for="(item, index) in slice.items"
         :key="index"
@@ -30,11 +30,20 @@ export default {
 <style lang="scss">
 .resources {
   margin: 5%;
+  .card__wrap {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
+  }
   .resource-card {
     position: relative;
     margin: 30px 10px;
     box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 30%);
     opacity: 0;
+    @media (min-width: 768px) {
+      width: 33%;
+    }
     .resource-type {
       position: absolute;
       top: 0;

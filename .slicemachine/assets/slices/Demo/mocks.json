@@ -7,22 +7,22 @@
     "primary": {
       "title": [
         {
-          "type": "heading1",
-          "text": "Generate vertical e-commerce",
+          "type": "heading2",
+          "text": "Leverage 24/365 ROI",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Laborum exercitation nulla qui do voluptate duis cillum exercitation velit id ea velit. Reprehenderit duis laborum cupidatat cillum Lorem velit aliquip.",
+          "text": "Labore sunt nostrud non adipisicing nostrud officia exercitation.",
           "spans": []
         }
       ],
-      "buttonText": "syndicate web-enabled paradigms",
+      "buttonText": "integrate back-end supply-chains",
       "buttonLink": {
         "link_type": "Web",
-        "url": "https://slicemachine.dev"
+        "url": "https://prismic.io"
       }
     }
   }

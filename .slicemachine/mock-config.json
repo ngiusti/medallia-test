@@ -64,7 +64,18 @@
         "items": {}
       }
     },
-    "Demo": {},
+    "Demo": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
     "Resources": {
       "default": {
         "primary": {
@@ -84,7 +95,8 @@
           }
         }
       }
-    }
+    },
+    "NewSlice": {}
   },
   "_cts": {
     "home-page": {}

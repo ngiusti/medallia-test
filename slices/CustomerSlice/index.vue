@@ -39,8 +39,9 @@ export default {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 20px;
     padding: 20px 0;
+    margin: 20px auto;
+    max-width: 1120px;
     .customer__wrap {
       width: 40%;
       box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 30%);
@@ -51,6 +52,17 @@ export default {
       a {
         display: flex;
         justify-content: center;
+        transition: all 0.5s;
+      }
+      &:hover {
+        a {
+          transform: translateY(-5px);
+        }
+      }
+      @media (min-width: 768px) {
+        width: 20%;
+        margin: 2%;
+        padding: 2% 0%;
       }
     }
   }

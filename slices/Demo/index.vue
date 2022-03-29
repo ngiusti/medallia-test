@@ -1,12 +1,14 @@
 <template>
-  <section class="section demo">
-    <PrismicRichText :field="slice.primary.title" class="title" />
-    <PrismicRichText :field="slice.primary.description" class="description" />
+  <section class="demo">
+    <div class="section">
+      <PrismicRichText :field="slice.primary.title" class="title" />
+      <PrismicRichText :field="slice.primary.description" class="description" />
 
-    <div class="button__wrap">
-      <PrismicLink :field="slice.primary.buttonLink" class="button-link"
-        >{{ slice.primary.buttonText }}
-      </PrismicLink>
+      <div class="button__wrap">
+        <PrismicLink :field="slice.primary.buttonLink" class="button-link"
+          >{{ slice.primary.buttonText }}
+        </PrismicLink>
+      </div>
     </div>
   </section>
 </template>
@@ -30,9 +32,16 @@ export default {
   }
   .button__wrap {
     background-color: #fff;
-    border: 1px solid #4050c6;
+    border: 2px solid #4050c6;
     a {
       color: #4050c6;
+    }
+    &:hover {
+      background-color: #4050c6;
+      border: 2px solid #fff;
+      .button-link {
+        color: #fff;
+      }
     }
   }
 }

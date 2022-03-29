@@ -5,6 +5,7 @@ import Demo from './Demo';
 import Hero from './Hero';
 import LeftRightContent from './LeftRightContent';
 import MultipleContentImageBlock from './MultipleContentImageBlock';
+import NewSlice from './NewSlice';
 import NewTestSlice from './NewTestSlice';
 import Resources from './Resources';
 
@@ -14,6 +15,7 @@ export {
 	Hero,
 	LeftRightContent,
 	MultipleContentImageBlock,
+	NewSlice,
 	NewTestSlice,
 	Resources,
 };
@@ -24,6 +26,7 @@ export const components = {
 	hero: Hero,
 	left_right_content: LeftRightContent,
 	multiple_content_image_block: MultipleContentImageBlock,
+	new_slice: NewSlice,
 	new_test_slice: NewTestSlice,
 	resources: Resources,
 };

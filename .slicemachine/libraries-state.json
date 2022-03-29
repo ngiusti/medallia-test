@@ -161,9 +161,10 @@
                 "title": {
                   "type": "StructuredText",
                   "config": {
-                    "single": "heading1",
                     "label": "Title",
-                    "placeholder": "This is where it all begins..."
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
                   }
                 },
                 "description": {
@@ -203,22 +204,22 @@
             "primary": {
               "title": [
                 {
-                  "type": "heading1",
-                  "text": "Generate vertical e-commerce",
+                  "type": "heading2",
+                  "text": "Leverage 24/365 ROI",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Laborum exercitation nulla qui do voluptate duis cillum exercitation velit id ea velit. Reprehenderit duis laborum cupidatat cillum Lorem velit aliquip.",
+                  "text": "Labore sunt nostrud non adipisicing nostrud officia exercitation.",
                   "spans": []
                 }
               ],
-              "buttonText": "syndicate web-enabled paradigms",
+              "buttonText": "integrate back-end supply-chains",
               "buttonLink": {
                 "link_type": "Web",
-                "url": "https://slicemachine.dev"
+                "url": "https://prismic.io"
               }
             }
           }
@@ -490,17 +491,14 @@
               "version": "sktwi1xtmkfgx8626",
               "description": "LeftRightContent",
               "primary": {
-                "leftOrRight": {
+                "flipPositions": {
                   "config": {
-                    "label": "Left Or Right",
-                    "placeholder": "",
-                    "options": [
-                      "left",
-                      "right"
-                    ],
-                    "default_value": "left"
+                    "label": "Flip Positions",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
                   },
-                  "type": "Select"
+                  "type": "Boolean"
                 },
                 "title": {
                   "type": "StructuredText",
@@ -566,18 +564,18 @@
             "slice_type": "left_right_content",
             "items": [],
             "primary": {
-              "leftOrRight": "right",
+              "flipPositions": false,
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Morph frictionless interfaces",
+                  "text": "Integrate best-of-breed architectures",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Dolore aliqua fugiat mollit ex qui velit cillum et ut quis irure cillum. Ex occaecat eu sit consequat. Aliquip cillum consectetur anim minim ad et pariatur fugiat laborum consectetur incididunt et velit.",
+                  "text": "Voluptate nulla pariatur cupidatat quis irure enim eiusmod cillum laborum.",
                   "spans": []
                 }
               ],
@@ -588,12 +586,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
               },
-              "buttonText": "utilize extensible systems",
+              "buttonText": "reinvent intuitive niches",
               "buttonLink": {
                 "link_type": "Web",
-                "url": "http://twitter.com"
+                "url": "http://google.com"
               },
               "color": "blue"
             }
@@ -737,6 +735,127 @@
                 "copyright": null,
                 "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=900&h=500&fit=crop"
               }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
+      "new_slice": {
+        "library": "slices",
+        "id": "new_slice",
+        "name": "NewSlice",
+        "description": "NewSlice",
+        "model": {
+          "id": "new_slice",
+          "type": "SharedSlice",
+          "name": "NewSlice",
+          "description": "NewSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "NewSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your product"
+                  }
+                },
+                "newText": {
+                  "config": {
+                    "label": "New Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "new_slice",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=900&h=500&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+                }
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Synthesize back-end bandwidth",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Exercitation reprehenderit voluptate dolore eu. Ea tempor laborum do ad id dolor in quis consectetur.",
+                  "spans": []
+                }
+              ],
+              "newText": "e-enable strategic networks"
             }
           }
         },

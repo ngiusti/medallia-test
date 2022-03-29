@@ -1,7 +1,7 @@
 <template>
   <section class="section multiple-content-image-block">
     <PrismicRichText :field="slice.primary.title" class="title" />
-    <div>
+    <div class="body__wrap">
       <div class="image__wrap">
         <PrismicImage :field="slice.primary.image" />
       </div>
@@ -34,6 +34,12 @@ export default {
 
 <style lang="scss">
 .multiple-content-image-block {
+  .body__wrap {
+    @media (min-width: 768px) {
+      display: flex;
+      margin: 30px 20px;
+    }
+  }
   .content__wrap {
     width: 85%;
     display: flex;

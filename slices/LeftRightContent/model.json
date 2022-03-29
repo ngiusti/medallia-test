@@ -11,17 +11,14 @@
       "version": "sktwi1xtmkfgx8626",
       "description": "LeftRightContent",
       "primary": {
-        "leftOrRight": {
+        "flipPositions": {
           "config": {
-            "label": "Left Or Right",
-            "placeholder": "",
-            "options": [
-              "left",
-              "right"
-            ],
-            "default_value": "left"
+            "label": "Flip Positions",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
           },
-          "type": "Select"
+          "type": "Boolean"
         },
         "title": {
           "type": "StructuredText",
