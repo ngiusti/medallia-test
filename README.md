@@ -16,7 +16,7 @@ $ npm run start
 # generate static project
 $ npm run generate
 
-$ access the slice machine
+# access the slice machine
 $ npm run slicemachine
 ```
 
