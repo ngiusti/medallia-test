@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div>Header</div>
     <slice-zone :components="components" :slices="document.data.slices" />
-    <div>Footer</div>
   </div>
 </template>
 
@@ -33,10 +31,6 @@ export default {
 
     const displayScrollElement = (element) => {
       element.classList.add("scrolled");
-    };
-
-    const hideScrollElement = (element) => {
-      element.classList.remove("scrolled");
     };
 
     const handleScrollAnimation = () => {

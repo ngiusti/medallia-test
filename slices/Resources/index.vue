@@ -63,7 +63,7 @@ export default {
     .resource-content {
       border-top: 3px solid #4050c6;
       background-color: #f8f8f8;
-      padding: 10px;
+      padding: 15px;
     }
   }
 }

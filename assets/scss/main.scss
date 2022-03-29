@@ -71,7 +71,7 @@ img {
     transform: translateY(20px);
   }
   100% {
-    opacity: 100%;
+    opacity: 100;
     transform: translateY(0px);
   }
 }
@@ -86,7 +86,7 @@ img {
     transform: translateY(-20px);
   }
   100% {
-    opacity: 100%;
+    opacity: 100;
     transform: translateY(0px);
   }
 }
@@ -97,7 +97,7 @@ img {
     transform: translatex(-100%);
   }
   100% {
-    opacity: 100%;
+    opacity: 100;
     transform: translate0(0px);
   }
 }

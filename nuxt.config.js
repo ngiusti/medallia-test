@@ -23,8 +23,7 @@ export default {
   css: [
     // CSS file in the project
     "~/assets/css/fonts.css",
-    "~/assets/css/main.css",
-    "~/assets/scss/constants.scss",
+    "~/assets/css/reset.css",
     "~/assets/scss/main.scss",
   ],
 
