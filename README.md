@@ -15,6 +15,9 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+$ access the slice machine
+$ npm run slicemachine
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
